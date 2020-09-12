@@ -1,11 +1,15 @@
 package com.example.easyswagger.vo;
 
-/**
- * 学生实体
- */
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+
+@ApiModel("学生实体")
 public class StudentVO {
-    private String name;    //学生姓名
-    private String stuNo;   //学生编号
+    @ApiModelProperty("学生姓名")
+    private String name;
+    @ApiModelProperty("学生编号")
+    private String stuNo;
 
     public String getName() {
         return name;
