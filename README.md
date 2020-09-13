@@ -1,4 +1,12 @@
 ### How to use
+maven
+``` xml
+<dependency>
+  <groupId>io.github.iamyours</groupId>
+  <artifactId>easyswagger</artifactId>
+  <version>0.0.2</version>
+</dependency>
+```
 - add `@EnableEasySwagger` below `@EnableSwagger2`
 - replace annotation with normal doc info
 

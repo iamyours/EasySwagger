@@ -21,7 +21,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.swagger2</groupId>
+            <groupId>io.github.iamyours</groupId>
             <artifactId>easyswagger</artifactId>
             <version>0.0.2</version>
         </dependency>
